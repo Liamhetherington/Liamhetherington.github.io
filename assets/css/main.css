@@ -3752,11 +3752,16 @@ input, select, textarea {
 			}
 
 			#work {
-				margin-top: 60px;
+				margin-top: 70px;
+				margin-bottom: 300px;
+			}
+
+			#work-title {
+				height: 100px;
 			}
 
 			article#about.post.featured {
-				height: 400px;
+				height: 200px;
 				padding: 50px;
 				vertical-align: middle;
 			}
