@@ -2596,7 +2596,7 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			min-height: 240px;
+			max-height: 225px;
 		}
 
 		.image.left, .image.right {
@@ -2775,6 +2775,7 @@ input, select, textarea {
 
 					ul.actions:not(.fixed) li > * {
 						width: 100%;
+						margin-bottom: 0px;
 					}
 
 					ul.actions:not(.fixed) li:first-child {
@@ -2970,7 +2971,7 @@ input, select, textarea {
 					position: absolute;
 					top: 50%;
 					width: calc(50% - 6rem);
-					border-top: solid 2px;
+					/* border-top: solid 2px; */
 				}
 
 				header.major > .date:before {
@@ -3100,7 +3101,7 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
-/* Pagination */
+/* Pagination
 
 	.pagination {
 		display: -moz-inline-flex;
@@ -3214,7 +3215,7 @@ input, select, textarea {
 
 	.pagination span {
 		color: #eeeeee;
-	}
+	} */
 
 /* Wrapper */
 
@@ -3766,12 +3767,12 @@ input, select, textarea {
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #eeeeee;
+			/* border-top: solid 2px #eeeeee; */
 			margin: 0;
 		}
 
 			#main > *:first-child {
-				border-top: 0;
+				/* border-top: 0; */
 			}
 
 		#main > footer {
@@ -3799,7 +3800,7 @@ input, select, textarea {
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
-					padding: 6rem 4rem 4rem 4rem ;
+					padding: 4rem 3rem 3rem 3rem;
 				}
 
 			}
@@ -3861,13 +3862,24 @@ input, select, textarea {
 				width: 50%;
 			}
 
+			#about-content {
+				margin-top: 40px;
+			}
+
+			article#about.post.featured {
+				height: 300px;
+				padding: 50px;
+				vertical-align: middle;
+			}
+
 			#main > .posts > article {
 				border-color: #eeeeee;
-				border-left-width: 2px;
+				border-right-width: 2px;
 				border-style: solid;
-				border-top-width: 2px;
+				/* border-top-width: 2px; */
 				text-align: center;
 			}
+
 
 				#main > .posts > article > :last-child {
 					margin-bottom: 0;
@@ -3888,7 +3900,7 @@ input, select, textarea {
 				}
 
 				#main > .posts > * {
-					padding: 2.5rem;
+					/* padding: 2.5rem; */
 					width: 50%;
 				}
 
