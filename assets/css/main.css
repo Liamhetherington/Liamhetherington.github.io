@@ -3753,7 +3753,7 @@ input, select, textarea {
 
 			#work {
 				margin-top: 70px;
-				margin-bottom: 300px;
+				margin-bottom: 150px;
 			}
 
 			#work-title {
@@ -3766,6 +3766,7 @@ input, select, textarea {
 				height: 200px;
 				padding: 50px;
 				vertical-align: middle;
+				margin-bottom: 70px;
 			}
 
 			#main > .posts > article {
